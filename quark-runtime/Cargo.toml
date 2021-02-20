@@ -1,0 +1,9 @@
+[package]
+name = "quark-runtime"
+version = "0.1.0"
+authors = ["lightclient@protonmail.com <lightclient@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+ethereum-types = "0.10.0"
+num_enum = "0.5.1"
