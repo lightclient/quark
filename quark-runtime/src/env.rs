@@ -1,4 +1,4 @@
-use ethereum_types::H160;
+use quark_common::H160;
 
 pub struct Environment {
     caller: u64,

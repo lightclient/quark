@@ -1,2 +1,2 @@
 [workspace]
-members = ["quark-runtime"]
+members = ["quark-common", "quark-db", "quark-runtime", "quark-types"]

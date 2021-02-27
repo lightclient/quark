@@ -1,5 +1,5 @@
 use crate::env::Environment;
-use ethereum_types::U256;
+use quark_common::U256;
 
 pub struct Context<'a> {
     pub env: &'a Environment,

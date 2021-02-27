@@ -224,12 +224,31 @@ dependencies = [
 ]
 
 [[package]]
-name = "quark-runtime"
+name = "quark-common"
 version = "0.1.0"
 dependencies = [
  "ethereum-types",
- "num_enum",
 ]
+
+[[package]]
+name = "quark-db"
+version = "0.1.0"
+dependencies = [
+ "quark-common",
+ "quark-types",
+]
+
+[[package]]
+name = "quark-runtime"
+version = "0.1.0"
+dependencies = [
+ "num_enum",
+ "quark-common",
+]
+
+[[package]]
+name = "quark-types"
+version = "0.1.0"
 
 [[package]]
 name = "quote"
